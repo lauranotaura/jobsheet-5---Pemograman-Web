@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Sistem Perpustakaan</title>
+    <!-- Menghubungkan CSS utama -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi Utama -->
+    <header>
+        <div class="logo">Perpustakaan</div>
+        
+        <!-- Tombol Hamburger untuk tampilan Mobile (JS-driven) -->
+        <button type="button" id="nav-toggle-btn" class="nav-toggle-label" aria-label="Menu">&#9776;</button>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="buku/list.html">Daftar Buku</a></li>
+                <li><a href="anggota/list.html">Daftar Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Utama Beranda -->
+    <main>
+        <h1>Selamat Datang di Sistem Informasi Perpustakaan</h1>
+        <p>Gunakan menu navigasi di atas untuk mengelola data buku dan anggota.</p>
+    </main>
+
+    <!-- Script JavaScript diletakkan tepat sebelum </body> agar HTML selesai dimuat terlebih dahulu -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

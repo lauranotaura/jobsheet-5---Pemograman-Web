@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Anggota - Perpustakaan</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Perpustakaan</div>
+        <button type="button" id="nav-toggle-btn" class="nav-toggle-label" aria-label="Menu">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../buku/list.html">Daftar Buku</a></li>
+                <li><a href="list.html">Daftar Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Tambah Anggota</h1>
+        <form id="form-tambah">
+            <div>
+                <label for="nama">Nama Anggota</label>
+                <input type="text" id="nama" name="nama">
+            </div>
+            <div>
+                <label for="no_anggota">No. Anggota</label>
+                <input type="text" id="no_anggota" name="no_anggota">
+            </div>
+            <button type="submit">Simpan</button>
+        </form>
+    </main>
+
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>
